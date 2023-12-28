@@ -6,7 +6,7 @@
 html , body {
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    
     
 }
 #Poetique {
@@ -120,7 +120,7 @@ a {
 }
 
 #right h1 {
-    margin-top: 2vw;
+    margin-top: 1.8vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 1.5vw;
     max-width: 40vw;
@@ -128,7 +128,7 @@ a {
 
 #right h6 {
     text-align: center;
-    margin-top: 1vw;
+    margin-top: 0.8vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -154,9 +154,7 @@ a {
 
 @media (max-width: 500px){
 
-    body {
-        overflow: scroll;
-    }
+    
     #Poetique {
         font-size: large;
     }
@@ -197,9 +195,19 @@ a {
         
     }
 
+    #Welcome {
+        width: 100vw;
+        font-size: medium;
+    }
+
     #right p {
         font-size: small;
     }
+
+    #text p {
+        font-size: small;
+    }
+
     #left {
         display: none;
     }
