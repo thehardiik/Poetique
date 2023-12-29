@@ -14,7 +14,7 @@ button.addEventListener("click" ,() => {
             right.innerHTML = right.innerHTML +  `<p> ${data[0].lines[i]} </p>`
         }
         right.innerHTML = right.innerHTML + `<h6> By ${data[0].author} </h6>`
-        const num = Math.floor(Math.random()*4)
+        const num = Math.floor(Math.random()*7)
         left.innerHTML = `<div id="cursor"></div>`
         if(num == 0){
             left.innerHTML = left.innerHTML+`<img src="0.png">`
@@ -24,6 +24,12 @@ button.addEventListener("click" ,() => {
             left.innerHTML = left.innerHTML+`<img src="2.png">`
         }else if(num == 3){
             left.innerHTML = left.innerHTML+`<img src="3.png">`
+        }else if(num == 4){
+            left.innerHTML = left.innerHTML+`<img src="4.png">`
+        }else if(num == 5){
+            left.innerHTML = left.innerHTML+`<img src="5.png">`
+        }else if(num == 6){
+            left.innerHTML = left.innerHTML+`<img src="6.png">`
         }else{
             left.innerHTML = left.innerHTML+`<img src="1.png">`
         }
