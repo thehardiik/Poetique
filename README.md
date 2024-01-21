@@ -12,4 +12,4 @@ It is a frontend-based project in which smooth animations are used to enhance th
 HTML , CSS , Javascript , GSAP
 ## API Used
 
-PoetryDB website is used to fetch data about poems
+PoetryDB api is used to fetch data about poems
