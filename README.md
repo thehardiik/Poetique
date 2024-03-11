@@ -5,6 +5,7 @@ Poetique is a platform where you can search for any random keyword and retrieve 
 
 It is a frontend-based project in which smooth animations are used to enhance the user experience.
 
+Link :- https://thehardiik.github.io/Poetique/
 
 
 ## Tech Stack
